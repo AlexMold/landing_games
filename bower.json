@@ -1,0 +1,21 @@
+{
+  "name": "Landing online game",
+  "version": "0.1.0",
+  "authors": [
+    "AlexMold <mangol72@gmail.com>"
+  ],
+  "description": "insales",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "1.9.1",
+    "bxslider-4": "~4.2.5",
+    "jquery-colorbox": "~1.6.2"
+  }
+}

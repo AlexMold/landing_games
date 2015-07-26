@@ -1,0 +1,23 @@
+@import '_reset.scss';
+@import '_font.scss';
+@import '_var.scss';
+
+.cont{
+  width: 1200px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.row-in{
+  @include clearfix;
+}
+.fl-l{
+  float: left;
+}
+.fl-r{
+  float: right;
+}
+header,
+section,
+footer{
+  text-align: center;
+}

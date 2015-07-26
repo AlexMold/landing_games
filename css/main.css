@@ -1,0 +1,167 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: 'Amer-type bold';
+  src: url("../fonts/american_typewriter_bold_bt-webfont.eot");
+  src: url("../fonts/american_typewriter_bold_bt-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/american_typewriter_bold_bt-webfont.woff2") format("woff2"), url("../fonts/american_typewriter_bold_bt-webfont.woff") format("woff"), url("../fonts/american_typewriter_bold_bt-webfont.ttf") format("truetype"), url("../fonts/american_typewriter_bold_bt-webfont.svg#amertype_md_btbold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Amer-type Reg';
+  src: url("../fonts/american_typewriter_medium_bt-webfont.eot");
+  src: url("../fonts/american_typewriter_medium_bt-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/american_typewriter_medium_bt-webfont.woff2") format("woff2"), url("../fonts/american_typewriter_medium_bt-webfont.woff") format("woff"), url("../fonts/american_typewriter_medium_bt-webfont.ttf") format("truetype"), url("../fonts/american_typewriter_medium_bt-webfont.svg#amertype_md_btmedium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+.grid, .grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12 {
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.grid_1 {
+  min-height: 1px;
+  width: 78.33333px; }
+
+.offset_1 {
+  margin-left: 98.33333px; }
+
+.grid_2 {
+  min-height: 1px;
+  width: 176.66667px; }
+
+.offset_2 {
+  margin-left: 196.66667px; }
+
+.grid_3 {
+  min-height: 1px;
+  width: 275px; }
+
+.offset_3 {
+  margin-left: 295px; }
+
+.grid_4 {
+  min-height: 1px;
+  width: 373.33333px; }
+
+.offset_4 {
+  margin-left: 393.33333px; }
+
+.grid_5 {
+  min-height: 1px;
+  width: 471.66667px; }
+
+.offset_5 {
+  margin-left: 491.66667px; }
+
+.grid_6 {
+  min-height: 1px;
+  width: 570px; }
+
+.offset_6 {
+  margin-left: 590px; }
+
+.grid_7 {
+  min-height: 1px;
+  width: 668.33333px; }
+
+.offset_7 {
+  margin-left: 688.33333px; }
+
+.grid_8 {
+  min-height: 1px;
+  width: 766.66667px; }
+
+.offset_8 {
+  margin-left: 786.66667px; }
+
+.grid_9 {
+  min-height: 1px;
+  width: 865px; }
+
+.offset_9 {
+  margin-left: 885px; }
+
+.grid_10 {
+  min-height: 1px;
+  width: 963.33333px; }
+
+.offset_10 {
+  margin-left: 983.33333px; }
+
+.grid_11 {
+  min-height: 1px;
+  width: 1061.66667px; }
+
+.offset_11 {
+  margin-left: 1081.66667px; }
+
+.grid_12 {
+  min-height: 1px;
+  width: 1160px; }
+
+.offset_12 {
+  margin-left: 1180px; }
+
+.cont {
+  width: 1200px;
+  padding: 0 10px;
+  margin: 0 auto; }
+
+.row-in:after {
+  display: table;
+  content: " ";
+  clear: both; }
+
+.fl-l {
+  float: left; }
+
+.fl-r {
+  float: right; }
+
+header,
+section,
+footer {
+  text-align: center; }
+
+/*# sourceMappingURL=main.css.map */

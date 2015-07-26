@@ -1,0 +1,40 @@
+@mixin font($family, $size, $weight){
+  font: {
+    family: $family;
+    size: $size;
+    weight: $weight;
+  }
+}
+@mixin clearfix{
+  &:after{
+    display: table;
+    content: " ";
+    clear: both;
+  }
+}
+
+$width: 1180px;
+$gutter: 20px;
+$columns: 12;
+$column_width: $width/$columns;
+$pull: true;
+
+.grid{
+  display: inline-block;
+  float: left;
+  margin-left: $gutter/2;
+  margin-right: $gutter/2;
+}
+
+@for $i from 1 through $columns{
+  .grid_#{$i}{
+    @extend .grid;
+    min-height: 1px;
+    width: $i*$column_width - $gutter;
+  }
+  @if $pull == true {
+    .offset_#{$i}{
+      margin-left: $i * $column_width;
+    }
+  }
+}
